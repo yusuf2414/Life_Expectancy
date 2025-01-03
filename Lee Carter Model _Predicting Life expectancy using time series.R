@@ -5,8 +5,8 @@ library("lifecontingencies")
 library(ggplot2)
 library(tseries)
 
-data <- hmd.mx(country = "AUS", username = "kiwanuka2414@gmail.com",
-               password = "7cXSreMTTkSv?pM", label = "Australia")
+data <- hmd.mx(country = "AUS", username = "add_your_email",
+               password = "Add_your_Password", label = "Australia")  ###You can always change the country based on the countries available on the mortality website 
 #Email that helps use get country code and label 
 #https://www.mortality.org/Data/DataAvailability
 #You need to visit the HMD data base , get an account and that will assist you to download
